@@ -1,5 +1,4 @@
 # Log_analyser
-# Flask Log Monitoring App
 
 This project is a Flask-based web application that processes and stores logs in a MySQL database. It provides a web interface to search logs based on response codes and displays common errors over time.
 
@@ -24,8 +23,8 @@ Ensure you have the following installed:
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/flask-log-monitor.git
-cd flask-log-monitor
+git clone https://github.com/Neeraj4298/Log_analyser.git
+cd Log_analyser
 ```
 
 ### **2. Create and Activate a Virtual Environment**
