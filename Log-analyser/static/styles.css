@@ -1,0 +1,87 @@
+body {
+    background-color: #f4f7f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.app-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.app-header h1 {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.app-header p {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.app-card {
+    border: none;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.app-table {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.badge-success {
+    background-color: #28a745;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .app-header h1 {
+        font-size: 2rem;
+    }
+
+    .table {
+        font-size: 0.85rem;
+    }
+
+    .app-card {
+        padding: 20px;
+    }
+
+    .app-header p {
+        font-size: 1rem;
+    }
+}
